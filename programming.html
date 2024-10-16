@@ -113,7 +113,49 @@
         </ul>
 
         <h3 class="mt-4">Get Started Today!</h3>
-        <p>Contact us to discuss your programming needs and how we can help you achieve your business goals.</p>
+        <p>Contact us to learn more about our web security services and how we can protect your online presence.</p>
+        
+        <!-- Buy Now Button -->
+        <button class="btn btn-primary mt-4" data-bs-toggle="modal" data-bs-target="#buyNowModal">Buy Now</button>
+    </div>
+    <!-- Web Security Section End -->
+
+    <!-- Modal for Form -->
+    <div class="modal fade" id="buyNowModal" tabindex="-1" aria-labelledby="buyNowModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="buyNowModalLabel">Buy Web Security Services</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="buyNowForm">
+                        <div class="mb-3">
+                            <label for="name" class="form-label">Your Name</label>
+                            <input type="text" class="form-control" id="name" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email Address</label>
+                            <input type="email" class="form-control" id="email" required>
+                        </div>
+                        <div class="mb-3">
+                            <label for="serviceType" class="form-label">Service Type</label>
+                            <select class="form-select" id="serviceType">
+                                <option selected>Software Development</option>
+                                <option>Mobile App Development</option>
+                                <option>Web Application Development</option>
+                                <option>Game Development</option>
+                                <option>Database Development</option>
+                                <option>API Development</option>
+                                <option>Script Development</option>
+                            </select>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
     </div>
     <!-- Programming Services Section End -->
 
